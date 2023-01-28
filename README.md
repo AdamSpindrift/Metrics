@@ -7,6 +7,8 @@ The app speaks directly to their workflow management software and grabs all the 
 Budgets for time and money are assigned against these jobs.
 Employees then log the time they are spending on jobs live. Once they stop the timer pofitability is calculated, giving realtime analytics.
 
+This is a copy of the project.
+
 Backed - Express.js server
 Frontend - React.js
 Database - MongoDB
