@@ -1,0 +1,84 @@
+.table {
+  
+  &__select-row {
+    
+    &--1 {
+      &:hover{
+        background-color: $color-secondary-hover;
+        color: $color-white-1;
+      }
+    }
+  }
+
+  &__medium-col {
+    width: 8rem;
+  }
+
+  &__large-col {
+    width: 15rem;
+  }
+
+  &__staff-col {
+    width: 25rem;
+  }
+
+}
+.employeeTable {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+.evenRow {
+    background-color: $color-secondary-dark;
+  }
+  
+  .oddRow {
+    background-color: $color-primary-dark;
+  }
+  
+  .totalsRow {
+    background-color: $color-primary-dark;
+  }
+  
+  .table-0-value {
+    color: $color-number-neutral;
+  }
+  
+  .table-neg-value {
+    color: $color-number-negative;
+  }
+  
+  .table-pos-value {
+    color: $color-number-positive;
+  }
+
+  .table-ahr-value {
+    color: $color-primary-light;
+  }
+
+
+  table {
+    border-spacing: 0rem;
+  }
+  
+  tr, th, td {
+    border: 1px solid $color-table-lines !important;
+    padding: 0.5rem 0.6rem !important;
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+
+    @include respond(1160px) {
+      padding: 1px 3px !important;
+    }
+  }
+
+  
+
+  .table-lines-2 {
+    border: 1px solid $color-table-lines-2 !important;
+  }
+
+  .table-lines-3 {
+    border: 1px solid $color-table-lines-3 !important;
+  }

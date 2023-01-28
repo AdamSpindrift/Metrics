@@ -1,0 +1,158 @@
+@import url("//hello.myfonts.net/count/3ca56e");
+
+@font-face {
+  font-family: "Loew-Thin";
+  src: url("./fonts/LoewThin/font.woff2") format("woff2"), 
+        url("./fonts/LoewThin/font.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+  font-family: "Loew-Light";
+  src: url("./fonts/LoewLight/font.woff2") format("woff2"), 
+        url("./fonts/LoewLight/font.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+}
+
+
+h1 {
+    font-family: "Loew-Light", sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Loew-Light", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+body {
+  font-family: "Loew-Light", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.container h1 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.container h2 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.container-2 h1 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+  
+.container-3 h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  margin-bottom: 0%;
+}
+
+.form__input-label {
+  font-family: "Loew-Light", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+input {
+  font-family: "Loew-Light", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+select option {
+  font-family: "Loew-Light", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.selector {
+  font-family: "Loew-Light", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.main-button {
+  font-family: "Loew-Light", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+  
+.navigation__link {
+  font-family: "Loew-Light", sans-serif;
+  font-size: $default-font-size;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.navigation-settings__link {
+  font-family: "Loew-Light", sans-serif;
+  font-size: $default-font-size;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+tr, th, td {
+  font-family: "Loew-Light", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+  @include respond(1640px) {
+    font-weight: 100;
+	}
+}
+
+.form {
+
+  &__file {
+    
+
+    &::-webkit-file-upload-button {
+      font-family: "Loew-Light", sans-serif;
+      font-weight: 300;
+    }
+  }
+}
+
+.page-title{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+// D3 Charts
+.axis-text {
+  font-family: "Loew-Light", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+//   Fonts Reference
+
+// <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Source+Sans+Pro:ital@0;1&display=swap" rel="stylesheet">
+
+// font-family: 'Cutive Mono', monospace;
+// font-family: 'Source Sans Pro', sans-serif;

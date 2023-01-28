@@ -1,0 +1,29 @@
+.settings {
+
+
+    &__details {
+        @include absCenter;
+        top: 25rem;
+        border: 2px solid $color-sextet;
+        width: 100rem;
+        height: 20rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+
+        &__text {
+            text-align: left;
+            padding: 2rem;
+        }
+    }
+
+    &__form1 {
+        margin-top: 24rem;
+    }
+
+    &__setup {
+        margin-top: 1rem;
+    }
+
+    
+}

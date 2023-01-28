@@ -1,0 +1,35 @@
+.login-logo {
+    width: 30%;
+    left: 35%;
+    top: 8%;
+    position: absolute;
+}
+
+.login {
+
+  background-color: $color-primary-light;
+  height: 100vh;
+  padding-top: 35rem;
+  margin-top: 0;
+
+  &__primary-heading {
+    @include absCenter;
+    top: 17rem;
+  }
+
+  &__welcome-message {
+    margin-top: 5rem;
+  }
+}
+
+.no-logo-margin {
+  margin-top: -20rem;
+}
+
+@media (max-width: 1200px) {
+  
+    .login-logo {
+      top: 5%;
+    }
+    
+  }

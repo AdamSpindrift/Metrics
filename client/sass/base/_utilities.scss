@@ -1,0 +1,66 @@
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.absLeft {
+    position: absolute;
+    left: 0;
+}
+
+.red {
+    background-color: red;
+    width: 80rem;
+    height: 80rem;
+}
+
+.margin-left0 {
+    margin-left: 0!important;
+}
+
+.margin-top-0 {
+    margin-top: 0 !important;
+}
+
+.margin-top-small {
+    margin-top: 2rem !important;
+}
+
+.margin-top-large {
+    margin-top: 5rem !important;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0rem !important;
+}
+
+.margin-bottom-small {
+    margin-bottom: 2rem !important;
+}
+
+.margin-bottom-medium {
+    margin-bottom: 4rem !important;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.nbsp{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+}
+
+.full-height {
+    height: 100vh;
+}

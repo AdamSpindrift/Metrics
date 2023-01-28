@@ -1,0 +1,38 @@
+.addkpi {
+
+    margin-top: 3rem;
+
+    display: grid;
+    grid-template-columns: 40vw 20vw 40vw;
+    grid-template-rows: repeat(2, min-height);
+    justify-items: center;
+    grid-row-gap: 5rem;
+
+    &__form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    &__roles {
+
+    }
+
+    &__kpi-list {
+
+    }
+
+    &__role-kpi-list {
+
+    }
+
+    &__textarea {
+        width: 70%;
+        height: 5rem;
+    }
+
+    &__th {
+        background-color: $color-primary-light;
+    }
+}

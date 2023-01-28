@@ -1,0 +1,19 @@
+.message {
+
+    &__success {
+        color: $color-number-positive;
+        animation-name: Messaging;
+        animation-duration: 2s;
+    }
+
+    &__position-menu {
+        position: fixed;
+        top: 11rem;
+        right: 9rem;
+    }
+
+    &__error {
+        color: red;
+    }
+
+}

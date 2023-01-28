@@ -1,0 +1,127 @@
+.navigation-settings {
+
+    &__checkbox {
+        display: none;
+    }
+
+    &__button {
+        background-color: transparent;
+        border: 1px solid $color-white-1;
+        height: 4rem;
+        width: 15rem;
+        position: fixed;
+        top: 6rem;
+        left: 0;
+        z-index: 1;
+        box-shadow: $shadow-2;
+        text-align: center;
+        cursor: pointer;
+
+        &:hover {
+            color: $color-black-1;
+            background-color: $color-white-1;
+        }
+    
+    }
+
+    &__background {
+        box-shadow: $shadow-3;
+        height: 4rem;
+        width: 100vw;
+        position: relative;
+        margin-top: 0rem;
+        background-color: $color-primary-dark;
+        z-index: 1;
+    }
+
+    &__nav {
+        height: 6rem;
+        position: absolute;
+        top: 9.5rem;
+        left: 5rem;
+        z-index: 2;
+        width: 100vw;
+    }
+
+    // Icon
+    &__icon {
+        position: relative;
+        top: 0.5rem;
+        opacity: 1;
+        transition: all 0.8s;
+        text-align: center;
+
+        &--2 {
+            @include absCenter;
+            top: 1.7rem;
+            opacity: 0;
+        }
+    }
+
+    &__list {
+        @include absCenter;
+        list-style: none;
+        text-align: center;
+        width: 95vw;
+    }
+
+    &__item {
+        margin: 0;
+        float: left;
+        cursor: pointer;
+    }
+
+    &__link {
+        background-color: transparent;
+        border: none;
+        box-sizing: border-box;
+        color: $color-white-1;
+        display: inline-block;
+        padding-right: 7rem;
+        margin: 0;
+        margin-top: 0;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.4s;
+
+        &:hover,
+        &:active {
+            text-decoration: none;
+            border: none;
+            transform: scale(1.15);
+        }
+        
+    }
+
+    // Functionality
+
+    
+
+    &__button:hover &__icon::before {
+        top: 0;
+    }
+
+    &__button:hover &__icon::after {
+        top: 0;
+    }
+
+    &__checkbox:checked + &__button &__icon {
+        background-color: transparent;
+        opacity: 0;
+
+        &--2 {
+            opacity: 1;
+        }
+    }
+
+    &__checkbox:checked + &__button &__icon::before {
+        top: 0;
+        transform: rotate(135deg);
+    }
+
+    &__checkbox:checked + &__button &__icon::after {
+        top: 0;
+        transform: rotate(-135deg);
+    }
+}

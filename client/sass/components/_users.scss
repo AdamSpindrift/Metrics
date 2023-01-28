@@ -1,0 +1,31 @@
+.users {
+    position: relative;
+
+    &__users-table {
+        margin-top: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        &_users-col {
+            width: 40rem;
+        }
+    }
+
+    &__filter {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__details {
+        border: 2px solid $color-sextet;
+        width: 110rem;
+        margin-left: 2rem;
+
+        &__text {
+            text-align: left;
+            padding: 2rem;
+        }
+    }
+
+    
+}

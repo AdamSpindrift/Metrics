@@ -1,0 +1,105 @@
+input {
+    border: 1px solid $color-white-1;
+    background-color: $color-primary-dark;
+    width: 25rem;
+    border-radius: 0.12em;
+    padding: 1rem;
+    margin: 0 auto 1rem auto;
+    display: block;
+    text-align: center;
+    color: $color-white-1;
+  }
+
+  .input {
+
+    &--large {
+      width: 40rem;
+    }
+  }
+
+  select {
+    background-color: $color-primary-dark;
+  }
+
+  select option {
+    background-color: $color-primary-dark;
+    color: $color-white-1;
+    cursor: pointer;
+  }
+
+  .selector {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border: 0.05em solid $color-white-1;
+    border-bottom: 0.05em solid $color-white-1;
+    margin: 0 auto 1rem auto;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: transparent;
+    color: $color-white-1;
+    text-align: center;
+    width: 25rem;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &__time-unit {
+      border: 1px solid $color-white-1;
+      width: 40rem;
+    }
+
+    &--large {
+      width: 40rem;
+    }
+
+    &--time {
+      width: 7rem;
+      margin: 1rem;
+      text-align-last: center;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    &__align-left {
+      text-align: left;
+    }
+  }
+  
+  .selector:hover {
+    cursor: pointer;
+  }
+  
+  .selector:focus {
+    outline: none;
+  }
+
+  .form {
+
+    &__file {
+      margin-top: 2rem;
+      display: inline-block;
+      width: 50rem;
+
+      &::-webkit-file-upload-button {
+        background-color: $color-primary-dark;
+        color: $color-primary-light;
+        box-shadow: none;
+        border: 0.05em solid $color-white-1;
+        padding: 5px;
+
+        &:hover {
+          background-color: $color-grey-dark-2;
+        }
+      }
+    }
+
+    &__logo-specs {
+      margin-top: 2rem;
+      width: 40rem;
+    }
+
+  }
+
+  .textarea {
+    width: 100rem;
+  }

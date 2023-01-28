@@ -1,0 +1,20 @@
+.budget{
+    
+    
+    &__details {
+    border: 2px solid $color-sextet;
+    width: 100rem;
+    margin-left: 2rem;
+
+        &__text {
+            text-align: left;
+            padding: 2rem;
+        }
+    }
+
+    &__form {
+        position: absolute;
+        top: 15rem;
+        left: 110rem;    
+    }
+}

@@ -1,0 +1,89 @@
+.clients {
+    position: relative;
+
+    &__clients-table {
+        margin-top: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        &__client-col {
+            width: 40rem;
+        }
+    }
+
+    &__filter {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+
+    &__details {
+        border: 2px solid $color-sextet;
+        width: 80rem;
+        margin-top: 2rem;
+        margin-left: 0rem;
+        padding-bottom: 0.5rem;
+
+        &__text {
+            text-align: left;
+            padding: 2rem;
+        }
+
+        &--small {
+            width: 60rem;
+            margin-top: 2rem;
+            margin-left: 2rem;
+        }
+    }
+
+    &__budget-box {
+        margin-top: 2rem;
+    }
+
+    &__budget-details {
+        margin-bottom: 1rem;
+
+
+    }
+
+    &__jobs {
+     
+        &-heading {
+          margin-top: 1rem;  
+        }
+    }
+
+    &__budget-name {
+        width: 12rem;
+    }
+
+    &__budget-frequency {
+        width: 6rem;
+        padding: 2rem 0 !important;
+    }
+
+    &__yearly-budget {
+        width: 6rem;
+        padding: 2rem 0 !important;
+    }
+
+    &__yearly-budget-hours {
+        width: 6rem;
+        padding: 2rem 0 !important;
+    }
+
+    &__yearly-budget-minutes {
+        width: 6rem;
+        padding: 2rem 0 !important;
+    }
+
+    &__budget-fee-per-job {
+        width: 6rem;
+        padding: 2rem 0 !important;
+    }
+
+    &__budget-time-per-job {
+        width: 6rem;
+        padding: 2rem 0.5rem !important;
+    }
+}

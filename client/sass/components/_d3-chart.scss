@@ -1,0 +1,68 @@
+.axis line {
+    stroke: #0000;
+    stroke-width: 2;
+    shape-rendering: crispEdges;
+    
+  }
+
+  .x-axis {
+    
+  }
+
+  .y-axis {
+    
+  }
+  
+  .axis-text {
+    fill: #000;
+  }
+  
+  path {
+    fill: none;
+    stroke-width: 2;
+  }
+  
+  .tick text {
+    font-size: 15px;
+  }
+  
+  .serie-label {
+    font-size: 2rem;
+    fill: #000000;
+  }
+
+  .chart-box {
+    fill: $color-secondary-light;
+    stroke-width: 1px;
+    stroke: transparent;
+    
+
+    &:hover {
+      fill: $color-d3-bars;
+    }
+  }
+
+  .tooltip {
+    z-index: 10;
+    border-radius: 10px;
+    color: $color-secondary-hover;
+    background-color: $color-primary-dark;
+    border: 2px solid $color-d3-bars;
+    padding: 10px;
+  }
+
+  .averageJobDuration {
+    position: relative;
+
+    &__main-svg{
+      position: relative;
+    }
+  }
+
+  .accProdChart {
+    position: relative;
+
+    &__main-svg{
+      position: relative;
+    }
+  }

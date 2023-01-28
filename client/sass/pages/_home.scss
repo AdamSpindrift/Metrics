@@ -1,0 +1,47 @@
+.home {
+    background-color: $color-primary-light;
+    text-align: center;
+    height: 150vh;
+
+    &__logo {
+        position: relative;
+        width: 27.5%;
+        z-index: 1;
+
+        @include respond(1280px) {
+            margin-top: 2rem;
+        }
+
+        @include respond(600px) {
+            margin-top: 4rem;
+        }
+
+       
+    }
+
+    &__primary-heading {
+        font-size: 6rem;
+        @include absCenter;
+        top: 10rem;
+        left: 51%;
+        z-index: 1;
+    }
+    
+    &__background {
+        margin-top: -30rem;
+        position: relative;
+        z-index: 0;
+        pointer-events: none;
+        width: 100vw;
+        animation: navVideo 2s;
+        animation-fill-mode: both;
+        animation-delay: 0.2s;
+    }
+
+    &__on-top {
+        z-index: 1;
+        @include absCenter;
+        top: 25rem;
+       
+    }
+}

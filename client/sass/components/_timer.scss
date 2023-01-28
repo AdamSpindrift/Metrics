@@ -1,0 +1,258 @@
+.timer {
+    position: relative;
+
+    &__heading-secondary {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    &__time {
+        position: absolute;
+        top: 25rem;
+        left: 63rem;
+    }
+
+    &__duration {
+        position: absolute;
+        right: 20.5rem;
+        top: 35rem;
+        text-align: center;
+
+        @include respond(1850px) {
+            right: 29rem;
+            top: 32rem;
+        }
+
+        @include respond(1730px) {
+            right: 22rem;
+            top: 32rem;
+        }
+
+        @include respond(1500px) {
+            right: 28rem;
+            top: 35rem;
+        }
+
+        @include respond(1350px) {
+            right: 30rem;
+            top: 35rem;
+        }
+
+        @include respond(1280px) {
+            right: 25rem;
+            top: 35rem;
+        }
+    }
+
+    &__filter {
+        text-align: left;
+        margin-left: 2rem;
+    }
+
+    &__form-input {
+        width: 40rem;
+        margin-left: 0;
+
+        &--read-only {
+            border: 1px solid $color-table-lines-2; 
+        }
+
+        &--desc {
+            position: absolute;
+            right: 10rem;
+            top: 44rem;
+            font-size: 2rem;
+            margin-top: -1rem;
+
+            @include respond(1850px) {
+                right: 15rem;
+                top: 44.5rem;
+            }
+
+            @include respond(1730px) {
+                right: 8rem;
+                top: 44.5rem;
+            }
+
+            @include respond(1640px) {
+                right: 12rem;
+                top: 44.5rem;
+            }
+
+            @include respond(1500px) {
+                right: 15rem;
+                top: 44.5rem;
+            }
+
+            @include respond(1420px) {
+                right: 10rem;
+                top: 45rem;
+            }
+
+            @include respond(1350px) {
+                right: 17rem;
+                top: 48rem;
+            }
+
+            @include respond(1280px) {
+                right: 10rem;
+                top: 45rem;
+            }
+        }
+
+        &--desc-label {
+            position: absolute;
+            right: 10rem;
+            top: 41rem;
+            text-decoration: underline;
+
+            @include respond(1850px) {
+                right: 15rem;
+                top: 41.5rem;
+            }
+
+            @include respond(1730px) {
+                right: 8rem;
+                top: 41.5rem;
+            }
+
+            @include respond(1640px) {
+                right: 12rem;
+                top: 41.5rem;
+            }
+
+            @include respond(1500px) {
+                right: 15rem;
+                top: 41.5rem;
+            }
+
+            @include respond(1420px) {
+                right: 11rem;
+                top: 41.5rem;
+            }
+
+            @include respond(1350px) {
+                right: 15rem;
+                top: 41.5rem;
+            }
+
+            @include respond(1280px) {
+                right: 10rem;
+                top: 41.5rem;
+            }
+        }
+    }
+
+    &__inoutcrm {
+        text-align: left;
+    }
+
+    &__jobs-table {
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        &__client-col {
+            width: 12rem;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        &__client-col-large {
+            width: 20rem;
+        }
+    }
+
+    &__time-unit {
+        text-align: left;
+        box-shadow: 0px 0px 3px 3px $color-secondary-light;
+        padding: 1rem;
+        margin-top: 3rem;
+    }
+
+    &__submit-time {
+        appearance: none;
+        outline: 0;
+        background-color: transparent;
+        box-shadow: $shadow-2;
+        padding: 1rem 1.5rem;
+        margin: 20px;
+        margin-bottom: 1rem;
+        height: 9rem;
+        width: 9rem;
+        border-radius: 50%;
+        font-size: 2.5rem;
+        font-weight: 400;
+        text-align: center;
+        cursor: pointer;
+        position: absolute;
+        right: 22rem;
+        top: 22rem;
+
+        @include respond(1850px) {
+            right: 30rem;
+            top: 20rem;
+        }
+
+        @include respond(1730px) {
+            right: 23rem;
+            top: 20rem;
+        }
+
+        @include respond(1500px) {
+            right: 28rem;
+            top: 22rem;
+        }
+
+        @include respond(1350px) {
+            right: 30rem;
+            top: 26rem;
+        }
+
+        @include respond(1280px) {
+            right: 25rem;
+            top: 20rem;
+        }
+        
+        
+        &--start {
+            color: $color-number-positive;
+            border: 3px solid $color-number-positive;
+            
+
+            &:hover {
+                color: $color-black-1;
+                border: 6px solid $color-secondary-light;
+                background-color: $color-secondary-hover;
+              }
+          
+              &:focus {
+                outline: none;
+                border: 3px solid $color-primary-light;
+                background-color: $color-primary-dark;
+                color: $color-number-positive;
+              }
+        }
+
+        &--stop {
+            color: $color-secondary-dark;
+            border: 3px solid $color-secondary-dark;
+            margin-left: 15rem;
+
+            &:hover {
+                color: $color-primary-dark;
+                border: 6px solid $color-secondary-dark;
+                background-color: $color-secondary-hover;
+              }
+          
+              &:focus {
+                color: $color-secondary-dark;
+                outline: none;
+                border: 3px solid $color-primary-light;
+                background-color: $color-primary-dark;
+              }
+        }
+    }
+}
+
+
