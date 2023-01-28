@@ -9,8 +9,10 @@ Employees then log the time they are spending on jobs live. Once they stop the t
 
 This is a copy of the project.
 
-Backed - Express.js server
-Frontend - React.js
-Database - MongoDB
+Frontend - React.js.
 
-Charts and Graphs - D3.js
+Charts and Graphs - D3.js.
+
+Backend - Express.js server.
+
+Database - MongoDB.
